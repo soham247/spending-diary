@@ -73,7 +73,7 @@ export default function LoginPage() {
                     placeholder="Password"
                 />
 
-                <p className="mt-4 text-center text-muted-foreground">Don't have an account? <Link href={"/register"}
+                <p className="mt-4 text-center text-muted-foreground">Don&apos;t have an account? <Link href={"/register"}
                 className="hover:underline text-foreground"
                 >Sign up</Link></p>
 
