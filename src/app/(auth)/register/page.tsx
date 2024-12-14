@@ -52,7 +52,7 @@ export default function RegisterPage() {
             } else if(response.status === 400) {
                 setError(response.data.message)
             }
-        } catch (error) {           
+        } catch{           
             toast({
                 title: "Something went wrong",
                 variant: "destructive",

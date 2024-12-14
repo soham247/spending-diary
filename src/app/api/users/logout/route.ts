@@ -13,7 +13,7 @@ export async function GET() {
             httpOnly: true,
             expires: new Date(0)
         })
-    } catch (error) {
+    } catch{
         return NextResponse.json({error: "Something went wrong"}, {status: 500})
     }
 }
